@@ -17,6 +17,13 @@ body {
     font-size: 1.5rem;
 }
 
+.display div:hover {
+    height: calc(100% + 20px);
+    width: calc(100% + 20px);
+    /*animation: enlarge 2s ease;*/
+    transform: scale(1.1);
+}
+
 #steel-blue {
     background: #3F7CAC;
 }
@@ -81,6 +88,12 @@ body {
 #deep-space-sparkle {
     background: #4C5B5C ;
     color: white;
+}
+
+@keyframes enlarge {
+    100% {
+        transform: scale(1.125);
+    }
 }
 
 /*COLOR PALLATTES*/
