@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 50px;
+}
+
+.display {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.display div {
+    min-width: 200px;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+#steel-blue {
+    background: #3F7CAC;
+}
+
+#powder-blue {
+    background: #95AFBA;
+}
+
+#celadon-blue {
+    background: #37718E  ;
+}
+
+#iceberg {
+    background: #79ADDC ;
+}
+
+#ming {
+    background: #3C787E;
+}
+
+#onyx {
+    background: #393D3F;
+    color: white;
+}
+
+#cadet-grey {
+    background: #8DA7BE;
+}
+
+#roman-silver {
+    background: #87919E;
+}
+
+#dark-jungle-green {
+    background: #00272B;
+    color: white;
+}
+
+#opal {
+    background: #C6D8D3;
+}
+
+#rich-black-fogra-29 {
+    background: #11151C;
+    color: white;
+}
+
+#prussian-blue {
+   background: #212D40 ;
+    color: white;
+}
+
+#charcoal {
+    background: #364156;
+    color: white;
+}
+
+#blue-munsell {
+    background: #3891A6 ;
+}
+
+#deep-space-sparkle {
+    background: #4C5B5C ;
+    color: white;
+}
+
+/*COLOR PALLATTES*/
+
+/*#11151C     Rich black FOGRA 29*/
+/*#212D40         Prussian Blue*/
+/*#364156         Charcoal*/
+/*#3891A6        Blue Munsell*/
+/*#4C5B5C        Deep  Space sparkle*/
+
+/*#5D737E          Cadet*/
+/*#8FBFE0           Pale Cerulean*/
+/*#1D8A99          Metallic Seaweed*/
+/*#0BC9CD         Dark Turquise*/
+/*#6A706E          Nickel*/
+
+/*#95190C         Dark Red*/
+/*#044B7F          Yale Blue*/
+/*#041F1E           Dark Jungle Green*/
+/*#848C8E           Battleship Grey*/
+/*HUNTER GREEN*/
+
+
+
+
+/*#3F7CAC     Steel Blue*/
+/*#95AFBA      Pewter Blue*/
+/*#37718E      Celadon Blue*/
+/*#79ADDC     Iceberg*/
+/*#3C787E        Ming*/
+
+/*#393D3F      ONYX*/
+/*#8DA7BE     Cadet Grey*/
+/*#87919E      Roman Silver*/
+/*#00272B        Dark Jungle Green*/
+/*#C6D8D3         OPAL*/
