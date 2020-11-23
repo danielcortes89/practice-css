@@ -9,8 +9,26 @@ header {
     color: green;
 }
 
-header div {
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-links li {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+#nav-links a {
+    text-decoration: none;
 }
