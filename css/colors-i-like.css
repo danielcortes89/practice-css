@@ -90,31 +90,60 @@ body {
     color: white;
 }
 
+
+
+#cadet {
+    background: #5D737E ;
+}
+
+#pale-cerulean {
+    background: #8FBFE0;
+}
+
+#metallic-seaweed {
+    background: #1D8A99  ;
+}
+
+#dark-turquoise {
+    background: #0BC9CD;
+}
+
+#nickel {
+    background: #6A706E;
+}
+
+
+#dark-red {
+    background: #95190C;
+}
+
+#yale-blue {
+    background: #044B7F;
+}
+
+#battleship-grey {
+    background: #848C8E;
+}
+
+#hunter-green {
+    background: #355e3b;
+    color: white;
+}
+
+/*COLOR PALLATTES*/
+
+/*#95190C         Dark Red*/
+/*#044B7F          Yale Blue*/
+/*#848C8E           Battleship Grey*/
+/*HUNTER GREEN*/
+
+
 @keyframes enlarge {
     100% {
         transform: scale(1.125);
     }
 }
 
-/*COLOR PALLATTES*/
-
-/*#11151C     Rich black FOGRA 29*/
-/*#212D40         Prussian Blue*/
-/*#364156         Charcoal*/
-/*#3891A6        Blue Munsell*/
-/*#4C5B5C        Deep  Space sparkle*/
-
-/*#5D737E          Cadet*/
-/*#8FBFE0           Pale Cerulean*/
-/*#1D8A99          Metallic Seaweed*/
-/*#0BC9CD         Dark Turquise*/
-/*#6A706E          Nickel*/
-
-/*#95190C         Dark Red*/
-/*#044B7F          Yale Blue*/
-/*#041F1E           Dark Jungle Green*/
-/*#848C8E           Battleship Grey*/
-/*HUNTER GREEN*/
 
 
 
@@ -130,3 +159,15 @@ body {
 /*#87919E      Roman Silver*/
 /*#00272B        Dark Jungle Green*/
 /*#C6D8D3         OPAL*/
+
+/*#11151C     Rich black FOGRA 29*/
+/*#212D40         Prussian Blue*/
+/*#364156         Charcoal*/
+/*#3891A6        Blue Munsell*/
+/*#4C5B5C        Deep  Space sparkle*/
+
+/*#5D737E          Cadet*/
+/*#8FBFE0           Pale Cerulean*/
+/*#1D8A99          Metallic Seaweed*/
+/*#0BC9CD         Dark Turquise*/
+/*#6A706E          Nickel*/
