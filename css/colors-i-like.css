@@ -130,12 +130,25 @@ body {
     color: white;
 }
 
+#candy-apple {
+    background: #ff0800;
+}
+
+#ruby {
+    background: #9b111e;
+}
+
+#venetian-red {
+    background: #c80815;
+}
+
+#fire-engine {
+    background: #ce2029;
+}
+
 /*COLOR PALLATTES*/
 
-
-
 /*#ff0800 candy apple*/
-
 /*#9b111e  Ruby*/
 /*#c80815 venetian*/
 /*#ce2029 Fire engine*/
