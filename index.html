@@ -9,11 +9,17 @@
     <header class="header">
 
             <div>The Home</div>
-                <ul id="nav-links">
-                    <li><a href="#">To Resources</a></li>
-                    <li><a href="#">To Learning</a></li>
-                    <li><a href="#">To Blog</a></li>
-                </ul>
+        <div id="link-wrapper">
+            <ul id="nav-links">
+                <li><a href="#">To Resources</a></li>
+                <li><a href="#">To Learning</a></li>
+                <li><a href="#">To Blog</a></li>
+            </ul>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myHamburger()">
+            <i class="fa fa-bars"></i>
+        </a>
 
     </header>
     <h1>Intentions:</h1>
@@ -23,5 +29,15 @@
         <li>Interesting animations</li>
         <li>Things from instagram</li>
     </ul>
+    <script>
+        function myHamburger() {
+            let x = document.getElementById("link-wrapper");
+            if(x.style.display === "block"){
+                x.style.display = "none";
+            } else {
+                x.style.display = "block"
+            }
+        }
+    </script>
 </body>
 </html>

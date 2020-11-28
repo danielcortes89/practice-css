@@ -16,7 +16,12 @@ header {
     align-items: center;
 }
 
-#nav-links {
+header #link-wrapper {
+    display: none;
+}
+
+#nav-links  {
+
     display: flex;
     flex-direction: row;
 
@@ -31,4 +36,19 @@ header {
 
 #nav-links a {
     text-decoration: none;
+}
+
+header a.icon {
+    background: green;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+}
+
+#nav-links a:hover {
+    background: blue;
+    color: black;
 }
