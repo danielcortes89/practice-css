@@ -51,3 +51,37 @@ header a.icon {
     background: blue;
     color: black;
 }
+
+
+/*NEXT HEADER*/
+.next-header {
+    background: red;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+#next-drop {
+    background: black;
+    color: red;
+    margin-top: 0px;
+    padding: 10px;
+    display: none;
+    /*display: block;*/
+}
+
+#next-drop ul {
+    list-style: none;
+    padding: 0;
+}
+
+#next-drop li {
+    padding: 10px;
+}
+
+#next-drop li:hover {
+    background: red;
+    color: black;
+}
+

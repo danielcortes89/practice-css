@@ -22,6 +22,23 @@
 
     </header>
 
+<!--    ANOTHER KIND OF HAMBURGER-->
+    <div class="next-header">
+        <span>VERTICAL</span>
+        <a href="javascript:void(0);" onclick="triggerVertical()">
+            <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div id="next-drop">
+        <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+        </ul>
+    </div>
+
+<!--    THE REST OF THE CODE-->
+
     <h1>Intentions:</h1>
     <ul>
         <li>A responsive hamburger  header</li>
@@ -36,6 +53,15 @@
                 x.style.display = "none";
             } else {
                 x.style.display = "block"
+            }
+        }
+
+        function triggerVertical(){
+            let nextDrop = document.getElementById("next-drop");
+            if(nextDrop.style.display === "block"){
+                nextDrop.style.display = "none";
+            } else {
+                nextDrop.style.display = "block"
             }
         }
     </script>
