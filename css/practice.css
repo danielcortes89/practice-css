@@ -85,3 +85,73 @@ header a.icon {
     color: black;
 }
 
+/*RESPONSIVE HEADER*/
+
+.resp-header {
+    background: deepskyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#response-wrapper {
+    /*background: black;*/
+    /*color: red;*/
+    /*margin-top: 0px;*/
+    /*padding: 10px;*/
+    /*display: none;*/
+    /*display: block;*/
+}
+
+#response-wrapper ul {
+    /*display: flex;*/
+    display: none;
+}
+
+#resp {
+    /*display: none;*/
+    padding: 10px;
+}
+
+@media screen and (min-width: 567px){
+    #resp {
+        display: none;
+    }
+
+    #response-wrapper ul {
+        display: flex;
+        /*display: none;*/
+        list-style: none;
+        padding: 0;
+    }
+
+    #response-wrapper a {
+        text-decoration: none;
+        /*padding: 10px;*/
+    }
+}
+
+#ghost-nav {
+    background: black;
+    color: deepskyblue;
+    margin-top: 0px;
+    padding: 10px;
+    display: none;
+    /*display: block;*/
+}
+
+#ghost-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#ghost-nav li {
+    padding: 10px;
+}
+
+#ghost-nav li:hover {
+    background: deepskyblue;
+    color: black;
+}
