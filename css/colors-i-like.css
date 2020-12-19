@@ -146,6 +146,28 @@ body {
     background: #ce2029;
 }
 
+#coffee-dark {
+    background: #454140;
+    /*background: #667292;*/
+    /*background: #393D3F;*/
+    color: white;
+
+}
+
+#coffee-med {
+    /*background: #bccad6;*/
+    /*background: #8DA7BE;;*/
+    /*background:  #92a8d1;*/
+    background: #95AFBA;
+}
+
+#coffee-light {
+    background: #bccad6;
+    background: #deeaee;
+    background: #ccebff;
+    background: #e6f5ff;
+}
+
 /*COLOR PALLATTES*/
 
 /*#ff0800 candy apple*/
